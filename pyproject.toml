@@ -5,12 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "docling>=2.15.1",
     "faiss-cpu>=1.11.0",
     "langchain-community>=0.3.23",
+    "langchain-docling>=0.2.0",
+    "langchain-experimental>=0.3.4",
     "langchain-openai>=0.3.16",
+    "langchain-pinecone>=0.2.6",
     "langchain-teddynote>=0.3.45",
     "pandas>=2.2.3",
+    "pdfplumber>=0.11.6",
     "pymupdf>=1.25.5",
+    "pypdf>=5.5.0",
     "python-dotenv>=1.1.0",
 ]
 
